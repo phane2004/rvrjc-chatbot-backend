@@ -1,0 +1,136 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Is anyone there?", "Good morning", "Good afternoon"],
+      "responses": ["Hello! How can I assist you with your college queries?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Talk to you later"],
+      "responses": ["Goodbye! Feel free to come back if you have more questions."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Much appreciated", "Thanks a lot"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+    },
+    {
+      "tag": "about",
+      "patterns": ["About RVRJC", "Tell me about the college", "Full form of RVRJC", "What is RVRJC", "College details", "Overview of RVRJC"],
+      "responses": [
+        "<strong>R.V.R. & J.C. College of Engineering (RVRJC)</strong> stands for <em>Rayapati Venkata Ranga Rao & Jagarlamudi Chandramouli College of Engineering</em>.<br><br>🏫 It is an autonomous institution established in 1985 and is affiliated to **Acharya Nagarjuna University**.<br><br>🎖️ RVRJC is accredited by **NAAC with an A+ Grade** and its programs are NBA accredited.<br><br>It’s one of the most reputed engineering colleges in Andhra Pradesh, known for academic excellence, placements, and infrastructure."
+      ]
+    },
+
+    {
+      "tag": "identity",
+      "patterns": ["Who are you?", "What can you do?", "What is this bot for?"],
+      "responses": [
+        "I’m your virtual assistant for RVR & JC College. Ask me anything about admissions, courses, fees, and more!"
+      ]
+    },
+    {
+      "tag": "admissions",
+      "patterns": ["How to apply?", "Admission process?", "Get admission", "Where to apply?"],
+      "responses": [
+        "🎓 <strong>Admissions Made Easy!</strong><br>You can join our college through **EAMCET**, **JEE Mains**, or via the **Management quota**.<br><br>📞 For more details, contact us at: <strong>+91-863-2286665</strong><br>📧 Email: <strong>principal@rvrjc.ac.in</strong><br>I'm here to help if you have more questions!"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["Courses Offered", "What courses are offered?", "List of programs", "Available degrees?"],
+      "responses": [
+        "We offer B.Tech, M.Tech, MBA, MCA and BBA"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["Fee Structure","What is the fee structure?", "Tuition fees?", "Cost of programs"],
+      "responses": [
+        "The fee structure varies by course. Visit: <a href='https://rvrjcce.ac.in/admissions.php#feestructure' target='_blank'>Fee Details</a>"
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": ["What facilities are there?", "Hostel info", "Campus facilities"],
+      "responses": [
+        "We offer hostels, library, labs, Wi-Fi campus, and sports. Learn more: <a href='https://rvrjcce.ac.in/infrastructure.php' target='_blank'>Facilities Info</a>"
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": ["Placements", "Placement stats", "Job opportunities", "Companies visiting", "Placement cell"],
+      "responses": [
+        "💼 <strong>Bright Careers Ahead!</strong><br>Our students have been placed in top MNCs and emerging startups. Check detailed placement stats, recruiters, and success stories on our official page: <a href='https://rvrjcce.ac.in/xtrainingandplacements.php' target='_blank'>Visit Placements Page</a>."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How to contact?", "Phone number", "Email", "Helpdesk"],
+      "responses": [
+        "You can contact us at: <br>Email: <a href='mailto:rvrjcce@hotmail.com'>rvrjcce@hotmail</a><br>Phone: +91-863-2288201"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where is the college located?", "College address", "Location of RVRJC"],
+      "responses": [
+        "RVR & JC College of Engineering is located at Chowdavaram, Guntur, Andhra Pradesh."
+      ]
+    },
+    {
+      "tag": "departments",
+      "patterns": ["Departments", "Branches offered", "Engineering streams"],
+      "responses": [
+        "🏫 <strong>Explore Our Academic Departments</strong><br>We offer a wide range of engineering streams including CSE, CSM, CSD, CSBS, IOT, ECE, EEE, Mechanical, Civil, IT, and more. Discover each department's focus and offerings here: <a href='https://rvrjcce.ac.in/departments.php' target='_blank'>Visit Departments Page</a>."
+      ]
+    },
+    {
+      "tag": "results",
+      "patterns": ["How to check results?", "Exam results?", "Semester grades?"],
+      "responses": [
+        "📊 Semester results are usually announced by the Exam Cell. You can check them on the official Exam Cell page here: <a href='https://rvrjcce.ac.in/examcell/results/regnoresultsR.php' target='_blank'>Exam Results</a>."
+      ]
+    },
+
+    {
+      "tag": "library",
+      "patterns": ["Library info?", "Library access?", "Tell me about library", "Library hours?"],
+      "responses": [
+        "The Central Library is open **8AM TO 9:30PM**, includes OPAC, digital & departmental libraries, and access to e‑journals like IEEE, Springer, DelNet, NPTEL, and more. 📚\n\nLearn more here: <a href=\"https://rvrjcce.ac.in/library.php?menu=faclt\" target=\"_blank\">Library Page</a>"
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": ["College events?", "Fests?", "Workshops?", "Any recent events?", "Upcoming events?"],
+      "responses": [
+        "🎉 From technical workshops to cultural fests, our campus is always buzzing with activities! Stay updated with the latest happenings on our <a href='https://rvrjcce.ac.in/' target='_blank'>News and Events Page</a>."
+      ]
+    },
+
+    {
+      "tag": "scholarships",
+      "patterns": ["Scholarship info?", "Are there any scholarships?", "Financial aid?"],
+      "responses": ["Yes, scholarships are offered based on merit and other criteria."]
+    },
+    {
+      "tag": "college_code",
+      "patterns": ["College code?", "What is RVRJC code?", "EAMCET code?"],
+      "responses": ["The EAMCET college code for RVR & JC is RVJC."]
+    },
+    {
+      "tag": "management",
+      "patterns": ["Who runs the college?", "Management info?", "Trust or society?"],
+      "responses": ["RVR & JC is managed by Nagarjuna Education Society. More at <a href='https://rvrjcce.ac.in/' target='_blank'>Management</a>"]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm not sure how to help with that. Can you try asking differently?",
+        "Sorry, I didn’t understand. Could you rephrase?"
+      ]
+    }
+  ]
+}
